@@ -3,4 +3,4 @@
 #include <gdiplus.h>
 
 
-Gdiplus::Image* P_IMG;
+extern Gdiplus::Image* P_IMG;

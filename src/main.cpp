@@ -1,9 +1,8 @@
 #include <shlwapi.h>
 
 #include "window_procedures.h"
-#include "gdi_plus_from_resource.h"
-#include <assert.h>
 
+extern Gdiplus::Image* P_IMG;
 
 
 

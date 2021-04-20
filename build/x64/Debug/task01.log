@@ -1,4 +1,0 @@
-﻿  main.cpp
-d:\work\window_procedure\src\window_procedures.h(70): warning C4715: 'CustomWndProc': not all control paths return a value
-d:\work\window_procedure\src\window_procedures.h(134): warning C4715: 'WndProc': not all control paths return a value
-  task01.vcxproj -> D:\work\window_procedure\build\x64\Debug\Solution.exe
