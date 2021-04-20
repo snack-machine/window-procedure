@@ -24,6 +24,7 @@ LRESULT CALLBACK CustomWndProc(HWND hWindow, UINT message, WPARAM wParam, LPARAM
                   {
                      MessageBox(hWindow, L"Second Procedure!", 0, 0);
                      SetWindowLongPtr(hWindow, GWLP_WNDPROC, (LONG_PTR)&WndProc);
+                     InvalidateRect(hWindow, nullptr, TRUE);
                      break;
                   }
                }

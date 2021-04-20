@@ -56,7 +56,11 @@ int CALLBACK wWinMain( HINSTANCE hInstance, HINSTANCE, PWSTR szCmdLine, int nCmd
                             nullptr );
 
    if( hWindow == INVALID_HANDLE_VALUE )
+   {
+      delete P_IMG;
+
       return EXIT_FAILURE;
+   }
 
    ShowWindow( hWindow, nCmdShow );
    UpdateWindow( hWindow );
@@ -67,6 +71,8 @@ int CALLBACK wWinMain( HINSTANCE hInstance, HINSTANCE, PWSTR szCmdLine, int nCmd
       TranslateMessage( &message );
       DispatchMessage( &message );
    }
+
+   delete P_IMG;
 
    Gdiplus::GdiplusShutdown( token );
    return static_cast<int>( message.wParam );
