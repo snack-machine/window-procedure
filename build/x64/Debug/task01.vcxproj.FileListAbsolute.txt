@@ -1,0 +1,4 @@
+d:\work\winapi\window_procedure\build\x64\Debug\Solution.exe
+d:\work\winapi\window_procedure\build\x64\Debug\Solution.pdb
+d:\work\window_procedure\build\x64\Debug\Solution.exe
+d:\work\window_procedure\build\x64\Debug\Solution.pdb
